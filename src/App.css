@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,58 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* .nav {
+  justify-content: center;
+  background-color: pink;
+} */
+
+/* .navbar {
+  display: flex;
+} */
+
+/* .menu {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .item {
+  padding-right: 10px;
+} */
+
+/* .title {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* p {
+  padding-right: 20px;
+  justify-content: space-evenly;
+} */
+
+/* .food {
+  height: 300px;
+} */
+
+h1 {
+  padding-bottom: 20px;
+}
+
+#navbar-dark {
+  justify-content: center;
+}
+
+#nigiri {
+  padding-right: 25px;
+}
+
+#maki {
+  padding-right: 25px;
+}
+
+#sashimi {
+  padding-right: 25px;
 }
 
 @keyframes App-logo-spin {
