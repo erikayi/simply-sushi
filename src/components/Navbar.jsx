@@ -35,7 +35,11 @@ function NavigationBar() {
           <Container fluid>
             <Navbar.Toggle aria-controls="navbar-dark" />
             <Navbar.Collapse id="navbar-dark">
+<<<<<<< HEAD
               <Navbar.Brand id="homepage" href="/">Home</Navbar.Brand>
+=======
+              {/* <Navbar.Brand id="homepage" href="#home">Home</Navbar.Brand> */}
+>>>>>>> 9a15d206c98ed05b0bfdc5b7c164f3ed7b893548
               <Nav>
                 <NavDropdown
                   id="nigiri"
@@ -43,11 +47,19 @@ function NavigationBar() {
                   menuVariant="dark"
                   align={{lg:'start'}}
                 >
+<<<<<<< HEAD
                   <NavDropdown.Item href="salmon-nigiri">Salmon Nigiri</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="tuna-nigiri">Tuna Nigiri</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="octopus-nigiri">Octopus Nigiri</NavDropdown.Item>
+=======
+                  <NavDropdown.Item>Salmon Nigiri</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.2">Tuna Nigiri</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.3">Octopus Nigiri</NavDropdown.Item>
+>>>>>>> 9a15d206c98ed05b0bfdc5b7c164f3ed7b893548
                 </NavDropdown>
               </Nav>
               <Nav>
@@ -56,11 +68,19 @@ function NavigationBar() {
                   title="Maki"
                   menuVariant="dark"
                 >
+<<<<<<< HEAD
                   <NavDropdown.Item href="tuna-maki">Tuna Maki</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="salmon-maki">Salmon Maki</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="white-tuna-maki">White Tuna Maki</NavDropdown.Item>
+=======
+                  <NavDropdown.Item href="#action/3.1">Tuna Maki</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.2">Salmon Maki</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.3">White Tuna Maki</NavDropdown.Item>
+>>>>>>> 9a15d206c98ed05b0bfdc5b7c164f3ed7b893548
                 </NavDropdown>
               </Nav>
               <Nav>
@@ -69,11 +89,19 @@ function NavigationBar() {
                   title="Sashimi"
                   menuVariant="dark"
                 >
+<<<<<<< HEAD
                   <NavDropdown.Item href="salmon-sashimi">Salmon Sashimi</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="tuna-sashimi">Tuna Sashimi</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="octopus-sashimi">Octopus Sashimi</NavDropdown.Item>
+=======
+                  <NavDropdown.Item href="#action/3.1">Salmon Sashimi</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.2">Tuna Sashimi</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.3">Octopus Sashimi</NavDropdown.Item>
+>>>>>>> 9a15d206c98ed05b0bfdc5b7c164f3ed7b893548
                 </NavDropdown>
               </Nav>
               <Nav>
@@ -82,11 +110,19 @@ function NavigationBar() {
                   title="Tempura"
                   menuVariant="dark"
                 >
+<<<<<<< HEAD
                   <NavDropdown.Item href="shrimp-tempura">Shrimp Tempura</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="veggie-tempura">Vegetable Tempura</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="jumbo-tempura">Jumbo Shrimp Tempura</NavDropdown.Item>
+=======
+                  <NavDropdown.Item href="#action/3.1">Shrimp Tempura</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.2">Vegetable Tempura</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.3">Jumbo Shrimp Tempura</NavDropdown.Item>
+>>>>>>> 9a15d206c98ed05b0bfdc5b7c164f3ed7b893548
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
